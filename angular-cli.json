@@ -9,7 +9,9 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "app/images",
+        "app/font-awesome-4.7.0"
       ],
       "index": "index.html",
       "main": "main.ts",

@@ -1,0 +1,39 @@
+li {
+    list-style:none;
+    /** the image will be vertically aligned in the center **/
+    background: url(../app/images/liststyle20x20.gif) left center no-repeat; 
+
+    /** move the text to the right **/
+    padding-left: 30px;
+    margin-bottom:10px;
+}
+
+.liBlack {
+    list-style:none;
+    /** the image will be vertically aligned in the center **/
+    background: url(../app/images/liststyle20x20.gif) left center no-repeat; 
+
+    /** move the text to the right **/
+    padding-left: 30px;
+    margin-bottom:10px;
+}
+
+strong {
+    color: #8e0000;
+}
+
+.inline-block {
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dividerLine {
+    display:inline-block;
+    background-color:#fddd26;
+    height:2px;
+    width:30%;
+    vertical-align: top;
+    margin-top:50px;
+    margin-right:10px;
+}

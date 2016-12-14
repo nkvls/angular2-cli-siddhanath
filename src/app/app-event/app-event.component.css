@@ -1,0 +1,13 @@
+strong {
+    color: #8e0000;
+}
+
+.dividerLine {
+    display:inline-block;
+    background-color:#fddd26;
+    height:2px;
+    width:30%;
+    vertical-align: top;
+    margin-top:50px;
+    margin-right:10px;
+}
