@@ -1,7 +1,12 @@
+@@font-face {
+    font-family: AppleChancery;
+    src: url(../../assets/AppleChancery.ttf)
+}
+
 li {
     list-style:none;
     /** the image will be vertically aligned in the center **/
-    background: url(../app/images/liststyle20x20.gif) left center no-repeat; 
+    background: url(../assets/images/liststyle20x20.gif) left center no-repeat; 
 
     /** move the text to the right **/
     padding-left: 30px;
@@ -11,7 +16,7 @@ li {
 .liBlack {
     list-style:none;
     /** the image will be vertically aligned in the center **/
-    background: url(../app/images/liststyle20x20.gif) left center no-repeat; 
+    background: url(../assets/images/liststyle20x20.gif) left center no-repeat; 
 
     /** move the text to the right **/
     padding-left: 30px;
