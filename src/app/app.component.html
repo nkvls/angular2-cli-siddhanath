@@ -1,45 +1,12 @@
-<div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="http://siddhanath.org.uk" style="margin-left:1%">
-                    <img height="100" width="100" src="assets/images/siddhanath-logo-web.png" alt="Siddhanath">
-                </a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav  navbar-right">
-                    <li class="padding-top30">
-                        <a routerLink="/home"  routerLinkActive="active">Home</a>
-                    </li>
-                    <li class="padding-top30">
-                      <a routerLink="/event" routerLinkActive="active">Events</a>
-                    </li>
-                    <li class="padding-top30">
-                      <a routerLink="/about" routerLinkActive="active">About</a>
-                    </li>
-                    <li class="padding-top30">
-                      <a routerLink="/nlam" routerLinkActive="active">NLAM</a>
-                    </li>
-                    <li class="padding-top30">
-                      <a routerLink="/contact" routerLinkActive="active">Contact</a>
-                    </li>            
-                </ul>
-            </div>
-        </div>
-    </div>
-<div class="row" style="background-color:#E0B13A;;height:90px;"></div>
+<app-app-navigation></app-app-navigation>
+
 <router-outlet></router-outlet>
 
-<div class="row">
+<div>
     <footer id="footer">
-    <!-- Footer Top Start -->
-    <div class="footer-top">
-        <div>
-            <div class="row">
+        <!-- Footer Top Start -->
+        <div class="footer-top">
+            <div class="row" style="margin-right:0px;">            
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one" style="margin-left:20px;">
                     <h3>About</h3>
                     <p> Kriya Yoga is a comprehensive spiritual path taught by Gurunath, author of  <a href="https://www.amazon.co.uk/Babaji-Lightning-Standing-Special-Abridged/dp/0984095748/" target="_blank">The Lightening Standing Still</a>. Kriya also refers to the scientific technique for the spiritual evolution of men from brute to man, man to man, man to God. </p>
@@ -55,10 +22,9 @@
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three" style="margin-left:20px;">
                     <h3>Contact Us</h3>
                     <ul class="contact-us">
-                        <li> <i class="fa fa-map-marker"></i>
-                            <p> <strong class="contact-pad">Address:</strong> 21, Walton Gardens,
-                                <br> Wembley
-                                <br> United Kingdom </p>
+                        <li> 
+<!--                            <i class="fa fa-map-marker"></i>-->
+                            <p> &nbsp; </p>
                         </li>
                         <li> <i class="fa fa-phone"></i>
                             <p><strong>Phone:</strong> +44 77 800 96 403</p>
@@ -92,30 +58,47 @@
                         </li>
                     </ul>
                 </section>
--->
+    -->
             </div>
         </div>
-    </div>
-    <!-- Footer Top End -->
-    <!-- Footer Bottom Start -->
-    <div class="footer-bottom">
-        <div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 "> © Copyright 2016 by <a href="#">Siddhanath</a>. All Rights Reserved. </div>
+        <!-- Footer Top End -->
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="row"> 
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 "> © Copyright 2017 by <a href="#">Siddhanath</a>. All Rights Reserved. </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
                     <ul class="social social-icons-footer-bottom">
-                        <li class="facebook"><a href="https://www.facebook.com/groups/111101472234029/" target="_blank" data-toggle="tooltip" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li class="twitter"><a href="https://twitter.com/SiddhanathYoga" target="_blank" data-toggle="tooltip" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li class="google-plus"><a href="https://plus.google.com/+YogirajSatGurunathSiddhanath" target="_blank" data-toggle="tooltip" title="" data-original-title="google-plus"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="youtube"><a href="https://www.youtube.com/user/HamsaYogi" target="_blank" data-toggle="tooltip" title="" data-original-title="youtube"><i class="fa fa-youtube"></i></a></li>
-                        <li class="instagram"><a href="http://ink361.com/app/users/ig-2052901305/yogiraj_satgurunath_siddhanath/photos" data-toggle="tooltip" target="_blank" title="" data-original-title="instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/groups/111101472234029/" target="_blank" data-toggle="tooltip" title="" data-original-title="Facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/SiddhanathYoga" target="_blank" data-toggle="tooltip" title="" data-original-title="Twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="google-plus">
+                            <a href="https://plus.google.com/+YogirajSatGurunathSiddhanath" target="_blank" data-toggle="tooltip" title="" data-original-title="google-plus">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li class="youtube">
+                            <a href="https://www.youtube.com/user/HamsaYogi" target="_blank" data-toggle="tooltip" title="" data-original-title="youtube">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="instagram">
+                            <a href="http://ink361.com/app/users/ig-2052901305/yogiraj_satgurunath_siddhanath/photos" data-toggle="tooltip" target="_blank" title="" data-original-title="instagram">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer Bottom End -->
-</footer>
+        <!-- Footer Bottom End -->
+    </footer>
 </div>
 
 
